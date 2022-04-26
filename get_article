@@ -1,0 +1,7 @@
+from newspaper import Article
+
+
+a = Article('https://www.lemonde.fr/archives/article/2004/01/01/andre-bucher-cultive-la-terre-et-les-mots_347724_1819218.html')
+a.download()
+a.parse()
+print(a.text)
