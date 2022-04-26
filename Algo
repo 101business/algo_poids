@@ -1,0 +1,22 @@
+import matplotlib.pyplot as plt
+
+poids =[70,71,73,74,72]
+calories_in=[2000,1500,1800,1900, 2000]
+calories_out=[2000,1600,1700,2000, 3000]
+
+if (poids[-1] < poids[-2]):
+    print('bravo')
+else:
+    if (calories_in[-2] > 1800):
+        print('mange moins')
+    else:
+        if (calories_out[-2] >1800):
+            print('marche plus')
+        else:
+            print('fais plus de cardio intense')
+
+plt.plot(calories_in)
+plt.ylabel('calories in')
+plt.plot(calories_out)
+plt.ylabel('caloreis out')
+plt.show()
