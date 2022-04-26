@@ -1,0 +1,3 @@
+text = open('boris.txt').read()
+text = text.replace('\n', "")
+print(text)
