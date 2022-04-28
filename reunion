@@ -1,0 +1,20 @@
+from algo import poids as pdc
+
+rep = [3, 4, 5,10,3,3,3,6]
+serie =[1,1,2,2,1,1,1,5]
+poids=[50, 55, 55,55, 60, 60,60,60]
+
+##### Calcul
+
+
+if (rep[-1] == rep[-2] and poids [-1] == poids[-2]) and serie[-1] == serie[-2]:
+    print ('fais une pause')
+else :
+    if (rep[-1] == rep[-2] and poids [-1] == poids[-2]) and serie[-1]<5:
+     print ('ajouter une serie')
+
+    else:
+        if (rep[-1]<10):
+         print('ajouter des rep')
+        else:
+         print('ajoute des kg')
