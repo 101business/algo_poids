@@ -1,6 +1,3 @@
-from algo import poids as pdc
-
-
 rep = [3, 4, 5,10,3,3,3,6]
 serie =[1,1,2,2,1,1,1,5]
 poids=[50, 55, 55,55, 60, 60,60,60]
